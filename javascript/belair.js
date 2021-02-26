@@ -1,10 +1,12 @@
-roughDriversOne = img src="assets/images/2-1.jpeg" alt="Drivers side one/>;
-roughDriversTwo = img src="assets/images/2-2.jpeg" alt="Drivers side two/>
+roughCarPassenger = [
+    "3-0.jpeg",
+    "3-4.jpeg",
+    "3-7.jpeg",
+]
 
-roughCar = [
 
-
-    "<img src="/project-one/assets/images/2-5.jpeg" alt="Drivers side three/>",
-    
-
+roughCarDriver = [
+    "2-1.jpeg",
+    "2-2.jpeg",
+    "2-5.jpeg"
 ]
