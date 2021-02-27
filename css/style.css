@@ -1,16 +1,57 @@
+
 body {
     background-color: green;
 }
 
-header, footer {
-    padding: 20px;
-    margin-bottom: 20px;
+
+ul {
+    display:inline;
+    margin: 0 10px;
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+
+header {
+    
     color: #333;
     background: #FFA500;
-  }
+    text-align: center;
+    font-size: 12px;
+}
 
-  section {
-    background: #30948D;
-    color: white;
-    padding: 20px;
-  }
+
+  #history {
+      
+      background: white;
+      color: blue;
+    }
+    
+    #left {
+        background: #9E1212;
+        height: 500px;
+        width: calc(100% / 2);
+        float: left;
+    }
+    
+    #right {
+        background: #394549;
+        height: 500px;
+        float: left;
+        width: calc(100% / 2);
+        overflow: auto;
+        
+    }
+    
+    footer {
+        padding: 25px;
+        background: #FFA500;
+        text-align: center;
+        
+        
+        
+    }
+   
