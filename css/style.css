@@ -34,15 +34,14 @@ header {
         background: #9E1212;
         height: 500px;
         width: calc(100% / 2);
-        float: left;
+       
     }
     
     #right {
         background: #394549;
         height: 500px;
-        float: left;
         width: calc(100% / 2);
-        overflow: auto;
+
         
     }
     
