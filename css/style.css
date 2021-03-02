@@ -6,12 +6,12 @@ body {
 
 ul {
     display:inline;
-    margin: 0 10px;
+    margin: 10px;
 }
 
 li {
     display: inline;
-    margin: 0 10px;
+    margin: 10px;
   }
   
 
@@ -21,6 +21,8 @@ header {
     background: #FFA500;
     text-align: center;
     font-size: 12px;
+    padding: 10px;
+    
 }
 
 
@@ -37,19 +39,12 @@ header {
        
     }
     
-    #right {
-        background: #394549;
-        height: 500px;
-        width: calc(100% / 2);
-
-        
-    }
     
     footer {
         padding: 25px;
         background: #FFA500;
         text-align: center;
-        
+        margin-top: 20px;
         
         
     }

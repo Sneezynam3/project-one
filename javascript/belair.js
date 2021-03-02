@@ -1,3 +1,9 @@
+var gif = new gif({
+    
+})
+
+
+
 roughCarPassenger = [
     "3-0.jpeg",
     "3-4.jpeg",
