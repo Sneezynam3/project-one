@@ -24,16 +24,16 @@ header {
 }
 
 
-  #history {
+  #one {
       
       background: white;
       color: blue;
     }
     
-    #left {
+    #main{
         background: #9E1212;
         height: 500px;
-        width: calc(100% / 2);
+        
        
     }
     
