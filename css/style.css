@@ -3,10 +3,19 @@ body {
     background-color: green;
 }
 
+a { color:black } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color: black; }
+a:hover, a:active { text-decoration: none; color:black }
 
 ul {
     display:inline;
     margin: 10px;
+    text-decoration: none;
 }
 
 li {
@@ -22,8 +31,10 @@ header {
     text-align: center;
     font-size: 12px;
     padding: 10px;
+    position: sticky;
     
 }
+
 
 
   #one {
