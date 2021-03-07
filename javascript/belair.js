@@ -1,6 +1,15 @@
-var gif = new gif({
-    
-})
+var gif;
+
+function display(){
+    gif = setInterval(newfunction, 1000);
+}
+
+function newfunction() {
+    stuff and things with timages
+}
+
+
+
 
 
 
