@@ -1,7 +1,6 @@
 
 
-//the vision is placing images in an array then delaying the time of which they are displayed.
-
+//the vision is placing images in an array, then calling them with a delay to the DOM
 
 var roughCarDriver = [
     "2-1.jpeg",

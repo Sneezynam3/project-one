@@ -41,20 +41,20 @@ header {
       
     background: white;
     color: blue;
+    
 }
     
 #main{
     background: #9E1212;
     height: 500px;
+    text-align: center;
 }
     
-    
-#boxOcars {
-    padding: turquoise;
-    padding: 10px;
-}
-
-
+.column {
+    float: left;
+    padding: 3px;
+    background-color:  turquoise;
+  }
 
 
 
