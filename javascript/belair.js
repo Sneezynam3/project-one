@@ -21,6 +21,6 @@ function display(){
     gif = setInterval(newfunction, 1000);
 }
 
-function newfunction() {
+/*function newfunction() {
     stuff and things with timages
-}
+}*/
