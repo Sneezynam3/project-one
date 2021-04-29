@@ -13,6 +13,12 @@ a:hover { text-decoration: none; color:black; }
 a:focus { text-decoration: none; color: black; }
 a:hover, a:active { text-decoration: none; color:black }
 
+a[href*="Chevrolet"] {
+    color:blue;
+    font-style: bold;
+  }
+
+
 ul {
     display:inline;
     margin: 10px;
@@ -31,8 +37,8 @@ header {
     background: #FFA500;
     text-align: center;
     font-size: 12px;
-    padding: 10px;
-    position: sticky;
+    padding: 1px;
+    
     
 }
 
@@ -41,36 +47,34 @@ header {
     text-align: center;  
     background: white;
     color: blue;
+    padding: 1px;
     
 }
     
-#main{
+#main, .clearfix{
+    overflow: auto;
     background: purple;
-    height: 500px;
+    padding: 5px;
+    
     
 }
     
 .column {
     float: left;
     padding: 3px;
-    background-color:  turquoise;
+    background-color: turquoise;
   }
 
-#left {
-    float: left;
-}
-
-#right {
-    float:right;
-}
 
 
 
 
 footer {
-    padding: 25px;
+    position: relative;
+    padding: 15px;
     background: #FFA500;
     text-align: center;
     margin-top: 20px;
+
 }
    
