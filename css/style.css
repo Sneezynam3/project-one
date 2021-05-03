@@ -1,6 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    overflow: hidden;
+    float: left;
+    padding: 1px;
+    border: 1px solid red;
+    background-color: turquoise;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;
+}
 
 body {
     background-color: green;
+}
+
+#main, .clearfix {
+    overflow: auto;
+    background: purple;
+    padding: 5px;
+    
+    
 }
 
  /* Globally */
@@ -24,6 +63,7 @@ ul {
     margin: 10px;
     text-decoration: none;
 }
+
 
 li {
     display: inline;
@@ -50,23 +90,6 @@ header {
     padding: 1px;
     
 }
-    
-#main, .clearfix{
-    overflow: auto;
-    background: purple;
-    padding: 5px;
-    
-    
-}
-    
-.column {
-    float: left;
-    padding: 3px;
-    background-color: turquoise;
-  }
-
-
-
 
 
 footer {
@@ -77,4 +100,21 @@ footer {
     margin-top: 20px;
 
 }
+
+
+@media only screen and (max-width: 980px) {
+    body, .col- {
+      
+        background-color: blue;
+        float: none;
+    }
+   
+  }
+
+@media only screen and (max-width: 640px) {
+    body {
+    background-color: grey;  
+    }   
+    }
+  }
    
