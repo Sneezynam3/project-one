@@ -8,6 +8,7 @@
   padding: 1px;
   border: 1px solid red;
   background-color: turquoise;
+  text-align: center;
 }
 
 
@@ -97,7 +98,7 @@ footer {
 
 }
 
-/*
+
 @media only screen and (max-width: 780px) {
     [class*="col-"] {
         width: 100%;
