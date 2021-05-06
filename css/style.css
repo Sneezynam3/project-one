@@ -40,6 +40,7 @@ body {
 
 
 #main {
+    overflow: hidden;
     background: purple;
     padding: 5px;
     
