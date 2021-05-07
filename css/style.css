@@ -44,6 +44,7 @@ body {
     overflow: hidden;
     background: purple;
     padding: 5px;
+    color: white;
     
     
 }
@@ -74,8 +75,13 @@ ul {
 li {
     display: inline;
     margin: 10px;
-  }
-  
+}
+
+img {
+    width: 100%;
+    height: auto;
+    overflow:auto;
+}
 
 header {
     
@@ -88,6 +94,9 @@ header {
     
 }
 
+.description {
+font-size: large;
+}
 
 footer {
     position: relative;
