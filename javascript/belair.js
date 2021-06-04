@@ -1,23 +1,19 @@
+var slideIndex = 0;
+showSlides();
 
-
-//the vision is placing images in an array, then calling them with a delay to the DOM
-
-
-
-/*function newfunction() {
-    stuff and things with timages
-}*/
-
-
-var roughCar = ["../project-one/assets/images/2-1copy.jpeg", "../project-one/assets/images/2-2copy.jpeg", "../project-one/assets/images/2-5copy.jpeg"]
-
-while(i<10) {
-    carLoop(i)
-    loopCounter++;
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 1000); // Change image every 2 seconds
 }
-
-function carLoop() {
-    roughCar
-    ;
-}
-
