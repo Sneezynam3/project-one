@@ -45,35 +45,18 @@
 
 <section id="main">
         
-        
-   
-             
-    <div class="row">
-            
-        <div class="col-6">
-            <img class="startDrivers" src="../assets/images/3-27copy.jpeg" alt="Knife through sheet metal" width="540" height="360">
-            <div class="description">The brittleness of a rust pit illustrated</div>
-        </div>  
-
-        <div class="col-6">
-            <img class="startDrivers" src="../assets/images/3-23copy.jpeg" alt="Peeled away door panel" width="540" height="360">
-            <div class="description">What lurks under a rusty spot</div>
-        </div> 
-                        
-    </div> 
-
-    <div class="row">
-
-        <div class="col-12">
-            <img class="startDrivers" src="../assets/images/3-34copy.jpeg" alt="Open door patch" width="540" height="360">
-            <div class="description">All cleaned up</div>
-        </div> 
-    </div>
+    <h3>What color would you choose?</h3>
+    <input id="rd1" input type="radio" value="black">Black</input><br> 
+    <input id="rd2" input type="radio" value="grey">Grey</input><br>
+    <input id="rd3" input type="radio" value="white">White</input><br>
+    <button onclick="fn1()" id="btn1">Summit vote</button> 
 
 
-    <div>
-        <p>One particularly bad area of rust on old cars is the quarter panels. Both sides on this car needed some serious attention. Some old school tips are shown below... </p>    
 
+    <p>One particularly bad area of rust on old cars is the quarter panels. Both sides on this car needed some serious attention. Some old school tips are shown below... </p>    
+    
+    <div id="car">
+    
         <div class="row">
             
             <div class="col-6">
@@ -105,9 +88,20 @@
             
         </div>
         
-        <button type="button" onclick="myFunction()">Click Me!</button>
     </div>
-        
+
+    
+    <button onclick="showImages()" id="button">See the magic!</button>
+    
+  
+
+
+
+
+
+
+
+    
 
     <div>
         <p>The driver side front fender had serious rust where the fender attached to the car. Again near the wheel well. The passenger side fender is from the Biscayne and had to have an antenna hole plugged but was in better shape.</p>
@@ -140,9 +134,21 @@
 
         </div>
         
-        <button type="button" onclick="myFunction()">Click Me!</button>
+        
     </div>
         
+
+
+
+
+    
+    
+
+
+
+
+
+
 
 
 
@@ -205,23 +211,23 @@
     <!-- Thumbnail images -->
     <div class="row">
       <div class="column">
-        <img class="deck lid" src="../assets/images/4-1copy.jpeg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+        <img class="deck lid" src="../assets/images/4-1copy.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Closed deck lid">
       </div>
       <div class="column">
-        <img class="deck lid" src="../assets/images/4-7copy.jpeg" onclick="currentSlide(2)" alt="Cinque Terre">
+        <img class="deck lid" src="../assets/images/4-7copy.jpeg" onclick="currentSlide(2)" alt="Cut away tail light">
       </div>
       <div class="column">
-        <img class="deck lid" src="../assets/images/4-12copy.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+        <img class="deck lid" src="../assets/images/4-12copy.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Donor deck lid">
       </div>
       <div class="column">
-        <img class="deck lid" src="../assets/images/4-5copy.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+        <img class="deck lid" src="../assets/images/4-5copy.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Patched deck lid(rough)">
       </div>
       <div class="column">
-        <img class="deck lid" src="../assets/images/4-9copy.jpeg" onclick="currentSlide(5)" alt="Nature and sunrise">
+        <img class="deck lid" src="../assets/images/4-9copy.jpeg" onclick="currentSlide(5)" alt="Patched deck lid(clean)">
       </div>
       
     </div>
-  </div>
+</div>
 
 
 <!--
@@ -266,62 +272,23 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div>
-        
+    
         <p>The attention to detail on this car is astounding. With the countless hours put into the body work, no rust spots will be overlooked. Each and every curve matches the other side making the car a symetrical. All the panal gaps have been meticulously set for uniformity. </p>
 
-        <div class="row">
-            
-            <div class="col-4">
-                <img class="startDrivers" src="../assets/images/3-31copy.jpeg" alt="Cowl/hood weld edge" width="540" height="360">
-                <div class="description">Cowl/hood weld edge</div>
-            </div>  
 
-            <div class="col-4">
-                <img class="startDrivers" src="../assets/images/4-13copy.jpeg" alt="Deck lid relief cuts" width="540" height="360">
-                <div class="description">Deck lid relief cuts</div>
-            </div> 
-                    
-            <div class="col-4">
-                <img class="startDrivers" src="../assets/images/2-31copy.jpeg" alt="Upper inner fender relief cuts" width="540" height="360">
-                <div class="description">Upper inner fender relief cuts</div>
-            </div> 
 
-        </div> 
-    </div>
-            
-            
+
+
+
+
+       
 </section>
 
 <footer>
     <a href="../interiorAndTrim/iandt.html">Interior and trim </a>
 </footer>
 
-    <script src="../javascript/belair.js"></script>
+<script src="../javascript/belair.js"></script>
 
 </body>
 </html>

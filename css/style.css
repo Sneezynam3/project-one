@@ -47,6 +47,13 @@ body {
   
 }
 
+#car {
+    display: none;
+    
+
+
+
+}
 
  /* Globally */
 a { color:black; 
@@ -327,6 +334,3 @@ img {vertical-align: middle;}
     
 }
 
-
-
-   

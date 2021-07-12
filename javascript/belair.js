@@ -1,6 +1,8 @@
 var slideIndex = 0;
 showSlides();
 
+
+
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -51,4 +53,55 @@ function showSlidesShow(n) {
   slides[slideshowIndex-1].style.display = "block";
   dots[slideshowIndex-1].className += " active";
   captionText.innerHTML = dots[slideshowIndex-1].alt;
+}
+
+
+
+
+
+
+
+
+
+
+
+  function showImages() {
+    // get the car
+    var myCar = document.getElementById('car');
+
+    // get the current value of the car's display property
+    var displaySetting = myCar.style.display;
+
+    // also get the car button, so we can change what it says
+    var carButton = document.getElementById('button');
+
+    // now toggle the car and the button text, depending on current state
+    if (displaySetting == 'block') {
+      // car is visible. hide it
+      myCar.style.display = 'none';
+      // change button text
+      carButton.innerHTML = 'Show car';
+    }
+    else {
+      // car is hidden. show it
+      myCar.style.display = 'block';
+      // change button text
+      carButton.innerHTML = 'Hide car';
+    }
+  }
+
+
+function fn1 () {
+  var rd1 = document.getElementById("rd1");
+  var rd2 = document.getElementById("rd2");
+  var rd3 = document.getElementById("rd3");
+
+  if(rd1.checked == true)
+      alert("You would paint the car "+rd1.value+"!");
+  else if(rd2.checked == true)
+      alert("You would paint the car "+rd2.value+"!");
+  else if(rd3.checked == true)
+      alert("You would paint the car "+rd3.value+"!");
+  else
+    alert("Please select an option to vote!")
 }
