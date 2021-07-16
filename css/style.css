@@ -7,7 +7,7 @@
   float: left;
   padding: 1px;
   border: 1px solid red;
-  background-color: turquoise;
+  background-color: whitesmoke;
   text-align: center;
 }
 
@@ -27,22 +27,23 @@
   }
     
 body {
-    background-color: green;
+    background-color: whitesmoke;
 }
 
 
 #one {
-    text-align: left;  
-    background: white;
-    color: blue;
+    text-align: center;  
+    background: whitesmoke;
+    color: #4287f5;
     padding: 1px;
+    font-size: xx-large;
     
 }
 
 
 #main {
     overflow: hidden;
-    background: purple;
+    background: whitesmoke;
     padding: 5px;
   
 }
@@ -92,7 +93,7 @@ img {
 header {
     
     color: #333;
-    background: #FFA500;
+    background: whitesmoke;
     text-align: center;
     font-size: 12px;
     padding: 1px;
@@ -107,7 +108,7 @@ font-size: large;
 footer {
     position: relative;
     padding: 15px;
-    background: #FFA500;
+    background: whitesmoke;
     text-align: center;
     margin-top: 20px;
 
@@ -240,7 +241,7 @@ img {vertical-align: middle;}
   
   /* Number text (1/3 etc) */
   .numbertext {
-    color: #f2f2f2;
+    color: white;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
@@ -317,7 +318,7 @@ img {vertical-align: middle;}
     }
 
     body {
-        background-color: blue;
+        background-color: whitesmoke;
     }   
     
 }
@@ -328,7 +329,7 @@ img {vertical-align: middle;}
     }
 
     body {
-        background-color: grey;
+        background-color: whitesmoke;
     }   
     
     
