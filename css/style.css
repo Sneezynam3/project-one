@@ -92,12 +92,14 @@ img {
 
 header {
     
-    color: #333;
-    background: whitesmoke;
-    text-align: center;
-    font-size: 12px;
-    padding: 1px;
-    
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  color: #333;
+  background: whitesmoke;
+  text-align: center;
+  font-size: 12px;
+  padding: 1px;
     
 }
 
