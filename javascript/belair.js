@@ -1,8 +1,12 @@
+//Slide show for tailights
+
+
+//declare variable
 var slideIndex = 0;
 showSlides();
 
 
-
+//Use function to run show. Variable declarations followed by a for loop. 
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -17,9 +21,8 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 1000); // Change image every 2 seconds
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
-
 
 
 
@@ -63,7 +66,7 @@ function showSlidesShow(n) {
 
 
 
-
+//The code for the show/hide button
 
   function showImages() {
     // get the car
@@ -90,6 +93,7 @@ function showSlidesShow(n) {
     }
   }
 
+// Alert for after voting
 
 function fn1 () {
   var rd1 = document.getElementById("rd1");

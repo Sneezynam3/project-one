@@ -107,6 +107,14 @@ header {
 font-size: large;
 }
 
+.center {
+  margin: auto;
+  width: 98%;
+  border: 1px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
 footer {
     position: relative;
     padding: 15px;
